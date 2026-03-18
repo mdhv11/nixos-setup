@@ -4,7 +4,7 @@
   environment.systemPackages = with pkgs; [
 
     # editors
-    vscode
+    vscodium
     neovim
 
     # rails debugging

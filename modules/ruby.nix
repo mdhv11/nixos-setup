@@ -10,5 +10,6 @@
     openssl
     zlib
     libffi
+    pkg-config
   ];
 }

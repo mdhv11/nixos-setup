@@ -2,6 +2,7 @@
 
 {
   environment.systemPackages = with pkgs; [
+    kitty
     git
     curl
     wget
@@ -13,7 +14,8 @@
     jq
     tmux
     gnupg
-    direnv
+    ffmpeg
+    neofetch
   ];
 
   programs.zsh.enable = true;

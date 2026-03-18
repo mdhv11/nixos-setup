@@ -7,7 +7,6 @@
   services.xserver.displayManager.gdm.enable = true;
 
   environment.systemPackages = with pkgs; [
-    vscode
     google-chrome
     slack
   ];
